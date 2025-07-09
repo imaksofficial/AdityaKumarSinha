@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Kumar Sinha - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="shortcut icon"
+      href="img/AKS_PASSPORT_SIZE.png"
+      type="image/x-icon"
+      alt="Aditya Kumar Sinha"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="img/AKS_PROFILE_STYLEABG.png" alt="Aditya Kumar Sinha Logo" />
+      </div>
+      <div class="navbar-toggle" id="navbar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="highlight">Aditya Kumar Sinha</span></h1>
+          <h2>Full Stack Developer</h2>
+          <p>I craft modern, scalable web solutions with a passion for design and technology. Let's build something amazing together.</p>
+          <a href="#contact" class="cta-btn">Contact Me</a>
+        </div>
+        <div class="hero-image">
+          <img src="img/AKS_PROFILE_STYLEABG.png" alt="Aditya Kumar Sinha" />
+        </div>
+      </div>
+    </section>
+    <script>
+      // Hamburger menu functionality
+      const toggle = document.getElementById('navbar-toggle');
+      const links = document.getElementById('navbar-links');
+      toggle.addEventListener('click', () => {
+        links.classList.toggle('active');
+        toggle.classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
